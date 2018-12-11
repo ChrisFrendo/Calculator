@@ -7,6 +7,8 @@
 
 
 void createMenu(void);
+float getFloat(void);
+void getFloatValues(float *value1, float *value2);
 
 int main(void){
     createMenu();
@@ -16,6 +18,10 @@ int main(void){
 // This method keeps asking the user to choose a function until he enters the exit option 'q'
 void createMenu(void) {
     char choice;
+    float value1 = 0;
+    float value2 = 0;
+    float ans;
+
     while (1) {
         printf("Enter '1' to Add\n"
                "Enter '2' to Subtract\n"
@@ -29,7 +35,10 @@ void createMenu(void) {
 
         switch (choice) {
             case '1':
-                // Call add method here
+                getFloatValues(&value1, &value2);
+                // Forget to initialize ans variable
+                add(value1, value2);
+                printf("%f + %f = %f\n", value1, value2, ans);
                 break;
             case '2':
                 // Call subtract method here
@@ -38,15 +47,49 @@ void createMenu(void) {
                 // Call multiply method here
                 break;
             case '4':
-                // Call divide method here
+                getFloatValues(&value1, &value2);
+                // Forget to initialize ans variable
+                divide(value1, value2);
+                printf("%f / %f = %f\n", value1, value2, ans);
                 break;
             case 'q':
+            case 'Q':
                 puts("Quitting program now...\n");
-                exit(0);
+                exit(EXIT_SUCCESS);
             default: // Handles all invalid inputs from user
                 puts("Please enter a valid option\n");
                 break;
         }
 
     }
+}
+
+float getFloat(void)
+{
+    float ans;
+    char ch;
+
+    while(scanf("%f", &ans) != 1)
+    {
+        // Echo bad input
+        while((ch = getchar()) != '\n')
+        {
+            putchar(ch);
+        }
+        puts(" is not a valid input. The input must be an float.");
+    }
+
+    // Clears buffer on successful input
+    while(getchar() != '\n');
+
+    return ans;
+}
+
+void getFloatValues(float *value1, float *value2)
+{
+    puts("Input first value: ");
+    *value1 = getFloat();
+
+    puts("Input second value: ");
+    *value2 = getFloat();
 }
