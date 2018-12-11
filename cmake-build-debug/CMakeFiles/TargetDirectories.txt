@@ -1,0 +1,3 @@
+D:/Repos/Calculator/cmake-build-debug/CMakeFiles/main_menu.dir
+D:/Repos/Calculator/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Repos/Calculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir

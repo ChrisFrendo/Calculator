@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\main_menu.dir/objects.a
+C:\Win-Builds\bin\ar.exe cr CMakeFiles\main_menu.dir/objects.a @CMakeFiles\main_menu.dir\objects1.rsp
+C:\Win-Builds\bin\gcc.exe  -Wall -g   -Wl,--whole-archive CMakeFiles\main_menu.dir/objects.a -Wl,--no-whole-archive  -o main_menu.exe -Wl,--out-implib,libmain_menu.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\main_menu.dir\linklibs.rsp
