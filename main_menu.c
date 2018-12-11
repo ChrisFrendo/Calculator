@@ -37,8 +37,7 @@ void createMenu(void) {
             case '1':
                 getFloatValues(&value1, &value2);
                 ans = add(value1, value2);
-                // Removed semicolon
-                printf("%f + %f = %f\n", value1, value2, ans)
+                printf("%f + %f = %f\n", value1, value2, ans);
                 break;
             case '2':
                 // Call subtract method here
