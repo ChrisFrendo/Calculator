@@ -36,9 +36,9 @@ void createMenu(void) {
         switch (choice) {
             case '1':
                 getFloatValues(&value1, &value2);
-                // Forget to initialize ans variable
-                add(value1, value2);
-                printf("%f + %f = %f\n", value1, value2, ans);
+                ans = add(value1, value2);
+                // Removed semicolon
+                printf("%f + %f = %f\n", value1, value2, ans)
                 break;
             case '2':
                 // Call subtract method here
@@ -48,8 +48,7 @@ void createMenu(void) {
                 break;
             case '4':
                 getFloatValues(&value1, &value2);
-                // Forget to initialize ans variable
-                divide(value1, value2);
+                ans = divide(value1, value2);
                 printf("%f / %f = %f\n", value1, value2, ans);
                 break;
             case 'q':
