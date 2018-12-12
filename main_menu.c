@@ -19,6 +19,7 @@ int main(void) {
 // This method keeps asking the user to choose a function until he enters the exit option 'q'
 void createMenu(void) {
     char choice;
+    float value1 = 0;
     float value2 = 0;
     float ans;
 
