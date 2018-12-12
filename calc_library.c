@@ -5,16 +5,27 @@
 #include <stdio.h>
 #include "calc_library.h"
 
-float add(float a, float b)
-{
+float add(float a, float b) {
     float ans = a + b;
 
     return ans;
 }
 
-float divide(float a, float b)
-{
+float divide(float a, float b) {
     float ans = a / b;
 
     return ans;
 }
+
+float subtract(float a, float b) {
+    float ans = a - b;
+
+    return ans;
+}
+
+float multiply(float a, float b) {
+    float ans = a * b;
+
+    return ans;
+}
+
