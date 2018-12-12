@@ -11,11 +11,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08136b58-dd25-4240-9184-92e1574fb8b4" name="Default Changelist" comment="Removed unnecessary methods and prototypes from calc_library.c and calc_library.h&#10;&#10; Updated console output format to show up to 3 decimal points">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calc_library.c" beforeDir="false" afterPath="$PROJECT_DIR$/calc_library.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calc_library.h" beforeDir="false" afterPath="$PROJECT_DIR$/calc_library.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_menu.c" beforeDir="false" afterPath="$PROJECT_DIR$/main_menu.c" afterDir="false" />
+    <list default="true" id="08136b58-dd25-4240-9184-92e1574fb8b4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main_menu.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main_menu.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main_menu.dir/calc_library.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main_menu.dir/calc_library.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main_menu.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main_menu.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main_menu.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main_menu.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main_menu.dir/main_menu.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main_menu.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main_menu.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/main_menu.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main_menu.exe" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,14 +83,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="c" value="112" />
-          <entry key="txt" value="170" />
+          <entry key="txt" value="212" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="3" />
           <entry key="ObjectiveC" value="112" />
-          <entry key="PLAIN_TEXT" value="167" />
+          <entry key="PLAIN_TEXT" value="209" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -114,8 +117,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main_menu.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="595">
+              <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="37" />
               <folding>
                 <element signature="e#82#100#0" expanded="true" />
               </folding>
@@ -364,12 +367,20 @@
       <workItem from="1544442285100" duration="202000" />
       <workItem from="1544558000125" duration="182000" />
       <workItem from="1544635355963" duration="19000" />
-      <workItem from="1544635481182" duration="2497000" />
+      <workItem from="1544635481182" duration="2790000" />
     </task>
+    <task id="LOCAL-00001" summary="Removed unnecessary methods and prototypes from calc_library.c and calc_library.h&#10;&#10; Updated console output format to show up to 3 decimal points.&#10; &#10; Removed declaration to create error.">
+      <created>1544638248055</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544638248055</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4890000" />
+    <option name="totallyTimeSpent" value="5183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -380,15 +391,15 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" sideWeight="0.49932885" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067115" side_tool="true" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -402,6 +413,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Removed unnecessary methods and prototypes from calc_library.c and calc_library.h&#10;&#10; Updated console output format to show up to 3 decimal points.&#10; &#10; Removed declaration to create error." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unnecessary methods and prototypes from calc_library.c and calc_library.h&#10;&#10; Updated console output format to show up to 3 decimal points.&#10; &#10; Removed declaration to create error." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.c" />
@@ -441,8 +456,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main_menu.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        <state relative-caret-position="595">
+          <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="37" />
           <folding>
             <element signature="e#82#100#0" expanded="true" />
           </folding>
