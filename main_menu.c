@@ -5,7 +5,6 @@
 #include <stdlib.h>
 #include "calc_library.h"
 
-
 void createMenu(void);
 float getFloat(void);
 void getFloatValues(float *value1, float *value2);
@@ -18,7 +17,6 @@ int main(void){
 // This method keeps asking the user to choose a function until he enters the exit option 'q'
 void createMenu(void) {
     char choice;
-    float value1 = 0;
     float value2 = 0;
     float ans;
 
@@ -37,7 +35,7 @@ void createMenu(void) {
             case '1':
                 getFloatValues(&value1, &value2);
                 ans = add(value1, value2);
-                printf("%f + %f = %f\n", value1, value2, ans);
+                printf("%.3f + %.3f = %.3f\n", value1, value2, ans);
                 break;
             case '2':
                 // Call subtract method here
@@ -48,7 +46,7 @@ void createMenu(void) {
             case '4':
                 getFloatValues(&value1, &value2);
                 ans = divide(value1, value2);
-                printf("%f / %f = %f\n", value1, value2, ans);
+                printf("%.3f / %.3f = %.3f\n", value1, value2, ans);
                 break;
             case 'q':
             case 'Q':
@@ -74,7 +72,7 @@ float getFloat(void)
         {
             putchar(ch);
         }
-        puts(" is not a valid input. The input must be an float.");
+        puts(" is not a valid input. The input must be a float.\nInput value: ");
     }
 
     // Clears buffer on successful input

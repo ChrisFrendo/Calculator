@@ -6,8 +6,6 @@
 #define CACLULATOR_CALC_LIBRARY_H
 
 float add(float a, float b);
-void addTest(float a, float b, float expected);
 float divide(float a, float b);
-void divTest(float a, float b, float expected);
 
 #endif //CACLULATOR_CALC_LIBRARY_H
