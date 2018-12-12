@@ -71,16 +71,14 @@ float getFloat(void)
     float ans;
     char ch;
 
-    while(scanf("%f", &ans) != 1)
-    {
+    while(scanf("%f", &ans) != 1) {
         // Echo bad input
-        while((ch = getchar()) != '\n')
-        {
+        while ((ch = getchar()) != '\n') {
             putchar(ch);
         }
         puts(" is not a valid input. The input must be an float.");
 
-
+    }
     // Clears buffer on successful input
     while(getchar() != '\n');
 
