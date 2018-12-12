@@ -48,3 +48,20 @@ void divTest(float a, float b, float expected)
         puts("ERROR: Test Failure!");
     }
 }
+
+float subtract(float a, float b)
+{
+    float ans = a - b;
+
+    return ans;
+}
+
+float multiply(float a, float b)
+{
+    float ans = a * b;
+
+    return ans;
+}
+
+
+

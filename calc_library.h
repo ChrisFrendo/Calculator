@@ -9,5 +9,7 @@ float add(float a, float b);
 void addTest(float a, float b, float expected);
 float divide(float a, float b);
 void divTest(float a, float b, float expected);
+float multiply(float a, float b);
+float subtract(float a, float b);
 
 #endif //CACLULATOR_CALC_LIBRARY_H

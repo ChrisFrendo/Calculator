@@ -40,10 +40,14 @@ void createMenu(void) {
                 printf("%f + %f = %f\n", value1, value2, ans);
                 break;
             case '2':
-                // Call subtract method here
+                getFloatValues(&value1, &value2);
+                ans = subtract(value1, value2);
+                printf("%f - %f = %f\n", value1, value2, ans);
                 break;
             case '3':
-                // Call multiply method here
+                getFloatValues(&value1, &value2);
+                ans = multiply(value1, value2);
+                printf("%f * %f = %f\n", value1, value2, ans);
                 break;
             case '4':
                 getFloatValues(&value1, &value2);
@@ -75,7 +79,7 @@ float getFloat(void)
             putchar(ch);
         }
         puts(" is not a valid input. The input must be an float.");
-    }
+
 
     // Clears buffer on successful input
     while(getchar() != '\n');
